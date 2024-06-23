@@ -1,0 +1,46 @@
+.swiper-box{
+    height: 435px;
+    background-image: url(../img/banbd.jpg);
+}
+
+
+.swiper-box > .swiper {
+    margin: auto auto;
+    width: 1100px;
+    background-color: red;
+    height: 433px;
+    cursor: pointer;
+}  
+.swiper-button{
+    position: relative !important;
+    top: -280px !important;
+
+    visibility: hidden;
+    border-radius: 6px;
+    width: 39px !important;
+    height: 64px !important;
+    background-color: #000000;
+    z-index: 9999;
+    opacity: 0.6;
+    transition: all .3s ease-in-out;
+}
+.swiper .swiper-button::after{
+    color: #cccccc;
+    font-size: 24px !important;
+
+}
+.swiper .swiper-button:hover{
+    opacity: 1;
+}
+.swiper:hover > .swiper-button{
+    visibility: inherit;
+}
+
+.swiper .swiper-button-left{
+    top: -230px !important;
+    left: 0px !important;
+}
+.swiper .swiper-button-right{
+    top: -272px !important;
+    left: 1060px !important;
+}

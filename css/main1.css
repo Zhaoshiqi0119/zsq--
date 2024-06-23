@@ -1,0 +1,224 @@
+
+
+.main1{
+    background:no-repeat url(../img/main.png) ;
+    width: 100%;
+    padding-top: 25px;
+}
+.main1-inner{
+    
+    width: 1100px;
+    margin: auto auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+.main1-left{
+    width: 718px;
+    height: 346px;
+    padding-top: 14px;
+    /* background-color: red; */
+}
+
+.main1-right{
+    width: 345px;
+    height: 365px;
+    padding-top: 14px;
+    /* background-color: green; */
+}
+.main1-left-swiper-box{
+    width: 350px;
+    height: 275px;
+}
+.swiper3 img{
+    width: 350px;
+    height: 275px;
+    
+}
+
+.swiper3 {
+    margin: auto auto;
+    width: 350px;
+    height: 275px;
+}  
+.swiper3 img{
+    cursor: pointer;
+}
+.swiper3 .swiper-button{
+    background-color: #0C0C0D ;
+    transition: .3s all ease-in-out;
+    width: 30px !important;
+    height: 50px !important;
+    border-radius: none !important;
+}
+.swiper3 .swiper-button::after{
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    color: #fff;
+}
+.swiper3 .swiper-button{
+    border-radius: 0px 0px !important;
+}
+.swiper3 .swiper-button:hover{
+    opacity: 1;
+}
+.swiper3:hover .swiper-button{
+    visibility: visible;
+}
+
+.swiper3 .swiper-button-prev{
+    left: 0px !important;
+    top: -170px !important;
+}
+
+.swiper3 .swiper-button-next{
+    left: 320px !important;
+    top: -200px !important;
+}
+.swiper3 .slide-text{
+    width: 340px;
+    height: 45px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-left: 10px;
+    line-height: 40px;
+    background-color: #F1F1F1;
+    position: relative;
+    top: -45px;
+    color: #105fA5;
+    cursor: pointer;
+    transition: .5s all ease-in-out;
+}
+.swiper3 .slide-text:hover{
+    color: #e5e5e5;
+}
+
+.swiper3 .swiper-pagination{
+    background-color: red;
+    text-align: right;
+    width: 350px !important;
+    height: 30px !important;
+    line-height: 30px !important;
+    position: relative;
+    top: -73px !important;
+    background: url("../img/focus_bg.png") no-repeat ;
+    background-size: 350px 30px;
+}
+.swiper3 .swiper-pagination-bullet{
+    border-radius: 0px 0px !important;
+    background-color: #F1F1F1;
+    width: 6px;
+    height: 6px;
+}
+.main1-left-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.main1-left-news{
+    width: 340px;
+    height: 128px;
+    padding-bottom: 13px;
+}
+.main1-left-new1{
+    height: 42px;
+    font-size: 16px;
+    color: #404040;
+    font-weight: 600;
+    line-height: 20px;
+    border-bottom: 1px #ccc dashed ;
+}
+.main1-left-new2{
+    margin-top: 10px;
+    width: 340px;
+}
+.main1-left-new2-title{
+    height: 30px;
+    font-size: 16px;
+    color: #404040;
+    font-weight: 600;
+    line-height: 20px;
+}
+.main1-left-new2-title a{
+    color: #404040;
+}
+.main1-left-new2-message{
+    font-size: 13px;
+    width: 340px;
+    height: 32px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-bottom: 1px #ccc dashed ;
+}
+.main1-left-new2-message a{
+    color: #7a7a7a !important;
+
+}
+.main1-left-new2-message:hover a{
+    color: #105fA5 !important;
+}
+
+.main1-left-new-title{
+    width: 340px;
+    height: 34px;
+    line-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: .2s all ease-in-out;
+}
+.main1-left-new-title a{
+    color: #3b3b3b;
+    font-size: 14px;
+}
+.main1-left-new-title:hover a{
+    color: #105fA5 !important;    
+}
+
+.main1-right-new-box{
+    width: 345px;
+    height: 74px;
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+.main1-right-new-box-day{
+    height: 41px;
+    width: 72px;
+    background-color: #004891;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 41px;
+    text-align: center;
+    transition: .4s all ease-in-out;
+}
+.main1-right-new-box-year{
+    height: 31px;
+    width: 72px;
+    margin-top: 2px;
+    background-color: #E6E6E6;
+    color: #737373;
+    font-size: 12px;
+    text-align: center;
+    line-height: 31px;
+
+}
+.main1-right-new-box-right{
+    width: 245px;
+    height: 66px;
+}
+.main1-right-new{
+    line-height: 33px;
+    color: #3b3b3b;
+    font-size: 15px;
+    cursor: pointer;
+}
+.main1-right-new-box:hover .main1-right-new-box-day{
+    background-color: #d6bd88;
+}
+.main1-right-new:hover{
+    color: #105fA5;
+}

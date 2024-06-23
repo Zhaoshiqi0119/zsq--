@@ -1,0 +1,51 @@
+.main2{
+    height: 365px;
+    width: 100%;
+    background-image: url(../img/main3.png);
+    overflow: hidden;
+}
+
+.main2-inner{
+    width: 1100px;
+    height: 290px;
+    margin: auto auto;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+.main2-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2-inner > div{
+    width: 350px;
+
+}
+.main2-inner-text{
+    width: 350px;
+    height: 24px;
+    margin-bottom: 10px;
+    line-height: 24px;    
+}
+.main2-inner-text a{
+    float:left;
+    font-size: 14px;
+    color: #3b3b3b;
+    width: 245px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.main2-inner-text a:hover{
+    color: #105fa5;
+}
+
+.time{
+    float:right;
+    font-size: 14px;
+    color: #999999;
+
+}
+.main2-inner2 a{
+    width: 270px;
+}

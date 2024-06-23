@@ -1,0 +1,76 @@
+.bottom-box{
+    height: 231px;
+    background-color: #105fa5;
+    overflow: hidden;
+}
+.bottom-box-inner{
+    width: 1100px;
+    margin: auto auto;
+}
+.bottom-box-link-bar{
+    height: 84px;
+    line-height: 84px;
+    border-bottom:  1px solid #287cc6;
+    
+}
+.bottom-box-link-bar div{
+    float: left;
+    height: 84px;
+    line-height: 84px;
+}
+.bottom-box-link{
+    padding: 0px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+    opacity: .8;
+}
+.bottom-box-link-title{
+    padding: 0px 14px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+.bottom-box-message{
+    height: 147px;
+}
+.copyright{
+    opacity: .7;
+    font-size: 13px;
+    color: #fff;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+.copyright1{
+    margin-top: 40px;
+}
+.bottom-code-img > div{
+    float: left;
+    margin-left: 20px;
+}
+.bottom-code-img{
+    width: 200px;
+    height: 110px;
+    position: relative;
+    left: 900px;
+    top: -80px;
+}
+
+.code-img-box img{
+    width: 80px;
+    height: 80px;
+    transition: 0.3s all ease-in-out;
+}
+.code-img-box img:hover{
+    transform: scale(1.1);
+}
+.code-img-title{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}

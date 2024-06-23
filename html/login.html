@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div class="login-card">
+        <div class="title">
+            登录
+        </div>
+        <input class="input-box login-username" type="text" placeholder="请输入用户名">
+        <input class="input-box login-password" type="password" placeholder="请输入密码">
+        <button class="login-button">登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</button>
+        <div class="bottom-link">
+            <div class="to-register">
+                注册
+            </div>
+            <div class="no-password">
+                忘记密码
+            </div>
+        </div>
+        <div class="bottom-text">
+            登录即代表您同意《用户协议》和《隐私协议》
+        </div>
+    </div>
+    <div class="register-card">
+        <div class="title">
+            注册
+        </div>
+        <input class="input-box register-name" type="text" placeholder="请输入输入用户名">
+        <input class="input-box register-password" type="password" placeholder="请输入密码">
+        <input class="input-box register-confirmPassword" type="password" placeholder="请再次输出密码">
+        <button class="register-button">注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;册</button>
+    </div>
+</body>
+<script>
+    window.onload = function () {
+
+        var username = "admin"
+        var password = "admin"
+
+
+        var login_card = document.querySelector(".login-card")
+        var register_card = document.querySelector(".register-card")
+        var login_button = document.querySelector(".login-button")
+        var register_button = document.querySelector(".register-button")
+
+
+        var login_username = document.querySelector(".login-username")
+        var login_password = document.querySelector(".login-password")
+
+
+        login_button.onclick = function () {
+            console.log("用户名:" + login_username.value + "\n密码:" + login_password.value)
+
+            if (login_username.value == username && login_password.value == password) {
+                window.location.href = 'index.html'
+            } else {
+                alert("用户名或密码错误!!!")
+            }
+        }
+
+        //登录注册卡片切换
+        var to_register = document.querySelector(".to-register")
+        to_register.onclick = function () {
+            login_card.style.display = "none"
+            register_card.style.display = "block"
+        }
+
+        //注册功能
+        var register_name = document.querySelector(".register-name")
+        var register_password = document.querySelector(".register-password")
+        var register_confirmPassword = document.querySelector(".register-confirmPassword")
+
+        register_button.onclick = function () {
+            if (register_name.value.trim() == "" || register_password.value.trim() == "") {
+                alert("用户名和密码不能为空!");
+                return;
+            }
+            if (register_password.value != register_confirmPassword.value) {
+                alert("两次输入的密码不一致!");
+                return;
+            }
+            if (register_name.value.length > 8) {
+                alert("用户名长度不能超过8个字符!");
+                return;
+            }
+            username = register_name.value.trim()
+            password = register_password.value
+            alert("注册信息验证成功!");
+            login_card.style.display = "block"
+            register_card.style.display = "none"
+        }
+
+    }
+</script>
+
+</html>

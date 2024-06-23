@@ -1,0 +1,35 @@
+.main3{
+    
+    margin: auto auto;
+    width: 1100px;
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+
+
+
+
+.main3 .img-title{
+    overflow: hidden;
+    position: relative;
+    left: -15px;
+    width: 287px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+    color: #3B3B3B;
+    cursor: pointer;
+}
+.main3  img{
+    width: 250px;
+    height: 180px;
+    cursor: pointer;
+}
+
+.main3 .swiper-wrapper{
+    transition-timing-function: linear !important;
+}

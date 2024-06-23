@@ -1,0 +1,52 @@
+.main5{
+    width: 1100px;
+    margin: auto auto;
+    margin-bottom: 30px;
+}
+
+.resource-card-area{
+    display: flex;
+    justify-content: space-between;
+}
+.resource-card-box{
+    
+    padding: 6px 0px;
+}
+.resource-card > a{
+    display: block;
+    height: 75px;
+    width: 145px;
+    line-height: 110px;
+    color: #3b3b3b;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.resource-card *{
+    transition:all .2s ease-in-out;
+
+}
+.resource-card>a:hover > span{
+    color: rgb(126, 126, 218);
+}
+.resource-card-icon1 > a{
+    background: url(../img/icon1.png);
+}
+.resource-card-icon2 > a{
+    background: url(../img/icon2.png);
+}
+.resource-card-icon3 > a{
+    background: url(../img/icon3.png);
+}
+.resource-card-icon4 > a{
+    background: url(../img/icon4.png);
+}
+.resource-card-icon5 > a{
+    background: url(../img/icon5.png);
+}
+.resource-card-icon6 > a{
+    background: url(../img/icon6.png);
+}
+.resource-card-icon7 > a{
+    background: url(../img/icon7.png);
+}
